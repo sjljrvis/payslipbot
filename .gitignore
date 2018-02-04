@@ -75,7 +75,6 @@ bower_components/
 public/uploads/
 public/event/
 public/dist
-*config.js
 *.DS_Store
 package-lock.json
 mochawesome-report/

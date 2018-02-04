@@ -11,6 +11,7 @@ exports.mailDetails = {
 	password: "jarvis1995"
 }
 
+
 exports.slack = {
 	botToken: 'xoxb-309498882962-OdDQOmGp8LR1naPvfhlWGBg9'
 }

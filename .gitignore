@@ -79,3 +79,4 @@ public/dist
 package-lock.json
 mochawesome-report/
 test/
+*config.js

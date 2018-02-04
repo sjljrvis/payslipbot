@@ -47,7 +47,7 @@ export const fetchUserPayslipFromDB = async (db ,userName) => {
 			});
 			let salaryData = temp.join("\n");
 			fs.writeFileSync(`${__base}/public/${userName}`, salaryData);
-			return { status: true, user : payslip, message: `Your salary slip here- https://dd520dbc.eu.ngrok.io/${userName}` }
+			return { status: true, user : payslip, message: `Your salary slip here- https://payslipbot.herokuapp.com/${userName}` }
 		}
 		else {
 			return { status: false, message: `Sorry I could not find your records` }

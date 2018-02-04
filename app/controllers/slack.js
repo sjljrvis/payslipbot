@@ -45,7 +45,7 @@ export const slack = (app) => {
 						to: payslip.user[0].email,
 						subject: 'Payslip',
 						text: 'Your salary is -',
-						html: `<h1>Your salary slip here- https://dd520dbc.eu.ngrok.io/${userName}<h1>`,// plain text  
+						html: `<h1>Your salary slip here- https://payslipbot.herokuapp.com/${userName}<h1>`,// plain text  
 						attachments: [{
 							path: `${__base}/public/${userName}`
 						}]

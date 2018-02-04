@@ -1,0 +1,13 @@
+version: '2'
+
+services:
+  web:
+    build: .
+    ports:
+     - ${PORT}:${PORT}
+
+    volumes:
+     - "/ /"
+    environment:
+     - PORT=${PORT}
+

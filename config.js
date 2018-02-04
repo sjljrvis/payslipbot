@@ -13,7 +13,7 @@ exports.mailDetails = {
 
 
 exports.slack = {
-	botToken: 'xoxb-309498882962-OdDQOmGp8LR1naPvfhlWGBg9'
+	botToken: 'xoxb-309498882962-ePh06lIiANvHXM3TgiVs0GeH'
 }
 
 exports.apiaiAuth = {
